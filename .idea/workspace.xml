@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eb8acf5-58e5-4cec-8ff3-0a89f8b67b36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/connor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673775410555</updated>
-      <workItem from="1673775413328" duration="1101000" />
+      <workItem from="1673775413328" duration="1302000" />
     </task>
     <servers />
   </component>
