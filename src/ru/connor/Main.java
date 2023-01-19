@@ -13,6 +13,8 @@ public class Main {
         String str = "BTC_USDT";
         String str2 = "Hello";
 
+        // dfdfkj
+
         System.out.println(str.toUpperCase());
         System.out.println(str.toLowerCase());
         System.out.println(!str.contains("_USDT"));
