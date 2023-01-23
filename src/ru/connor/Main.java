@@ -1,32 +1,43 @@
 package ru.connor;
-
-import java.util.Locale;
-
+import java.util.*;
 /**
  * @author John
  */
+
+@SuppressWarnings("all")
 public class Main {
-    public static void main(String[] args) {
-        // While
-        int number = 5;
-        int number2 = 10;
-        String str = "BTC_USDT";
-        String str2 = "Hello";
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        // sout,
 
-        // dfdfkj
 
-        System.out.println(str.toUpperCase());
-        System.out.println(str.toLowerCase());
-        System.out.println(!str.contains("_USDT"));
-//        // 1
-//        while (number < 7){
-//            System.out.println("Hello");
-//        }
+        System.out.println("Введите свой возраст: ");
+        int age = scanner.nextInt();
+        if(age >= 18){
+            System.out.println("Welcome!");
+        } else if (age < 18) {
+            System.out.println("Вам еще рано!");
+        } else {
+            System.out.println("ERROR");
+        }
+
+//        int i = 0;
+//        while(true){
+//            i++;
 //
-//        // 2
-//        do{
-//            number += 1;
-//            System.out.println("Hello");
-//        }while (number < 7);
+//            if (i == 10){
+//                break;
+//            }System.out.println(i);
+//
+//        }
+
+//        for (int i = 0; i < 10; i++) {
+//            if (!(i % 2 == 0)){
+//                continue;
+//            }
+//            System.out.println("Нечетные числа: " +i);
+//        }
+
     }
 }
+
