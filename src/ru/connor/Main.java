@@ -1,43 +1,60 @@
 package ru.connor;
-import java.util.*;
+
+
+import java.util.Scanner;
+
 /**
  * @author John
  */
 
-@SuppressWarnings("all")
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        // sout,
+        int numberOfMonth = scanner.nextInt();
 
-
-        System.out.println("Введите свой возраст: ");
-        int age = scanner.nextInt();
-        if(age >= 18){
-            System.out.println("Welcome!");
-        } else if (age < 18) {
-            System.out.println("Вам еще рано!");
-        } else {
-            System.out.println("ERROR");
+        if (numberOfMonth == 12 || numberOfMonth == 1 || numberOfMonth == 2){
+            System.out.println("Зима");
+        } else if (numberOfMonth == 3 || numberOfMonth == 4 || numberOfMonth == 5) {
+            System.out.println("Весна");
+        } else if (numberOfMonth == 6 || numberOfMonth == 7 || numberOfMonth == 8) {
+            System.out.println("Лето");
+        }else if (numberOfMonth == 9 || numberOfMonth == 10 || numberOfMonth == 11){
+            System.out.println("Осень");
+        }else {
+            System.out.println("Error");
         }
 
-//        int i = 0;
-//        while(true){
-//            i++;
-//
-//            if (i == 10){
-//                break;
-//            }System.out.println(i);
-//
-//        }
+        switch (numberOfMonth){
+            case  12, 1, 2:
+                System.out.println("Зима");
+                break;
+            case 3, 4, 5:
+                System.out.println("Лето");
+                break;
+            case 6, 7, 8:
+                System.out.println("Весна");
+                break;
+            case 9, 10, 11:
+                System.out.println("Осень");
+                break;
+            default:
+                System.out.println("Error");
+        }
 
-//        for (int i = 0; i < 10; i++) {
-//            if (!(i % 2 == 0)){
-//                continue;
-//            }
-//            System.out.println("Нечетные числа: " +i);
-//        }
+        for (int i = 0; i < 10; i++) {
+            if (i == 4){
+                continue;
+            }
+            System.out.println(i);
+        }
 
+        while (true){
+            if (numberOfMonth == 0){
+                break;
+            }
+            numberOfMonth ++;
+            System.out.println(numberOfMonth);
+        }
     }
-}
 
+}
