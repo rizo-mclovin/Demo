@@ -1,60 +1,29 @@
 package ru.connor;
 
-
-import java.util.Scanner;
-
-/**
- * @author John
- */
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int numberOfMonth = scanner.nextInt();
+        //
+        int[] numbers = {1, 3, 5, 6, 7};
+        numbers[0] = 12;
+        numbers[2] = 44;
 
-        if (numberOfMonth == 12 || numberOfMonth == 1 || numberOfMonth == 2){
-            System.out.println("Зима");
-        } else if (numberOfMonth == 3 || numberOfMonth == 4 || numberOfMonth == 5) {
-            System.out.println("Весна");
-        } else if (numberOfMonth == 6 || numberOfMonth == 7 || numberOfMonth == 8) {
-            System.out.println("Лето");
-        }else if (numberOfMonth == 9 || numberOfMonth == 10 || numberOfMonth == 11){
-            System.out.println("Осень");
-        }else {
-            System.out.println("Error");
+        for (int number : numbers) {
+            System.out.println(number);
         }
 
-        switch (numberOfMonth){
-            case  12, 1, 2:
-                System.out.println("Зима");
-                break;
-            case 3, 4, 5:
-                System.out.println("Лето");
-                break;
-            case 6, 7, 8:
-                System.out.println("Весна");
-                break;
-            case 9, 10, 11:
-                System.out.println("Осень");
-                break;
-            default:
-                System.out.println("Error");
-        }
+        //
 
-        for (int i = 0; i < 10; i++) {
-            if (i == 4){
-                continue;
+        int[][] numbers2 = {{1, 2, 3},
+                        {4, 5, 6},
+                        {7, 8, 9}};
+
+        for (int i = 0; i < numbers2.length; i++) {
+            for (int j = 0; j < numbers2.length; j++) {
+                System.out.printf("%d ", numbers2[i][j]);
             }
-            System.out.println(i);
-        }
-
-        while (true){
-            if (numberOfMonth == 0){
-                break;
-            }
-            numberOfMonth ++;
-            System.out.println(numberOfMonth);
+            System.out.println();
         }
     }
-
 }
