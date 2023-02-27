@@ -1,29 +1,49 @@
 package ru.connor;
 
-import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        //
-        int[] numbers = {1, 3, 5, 6, 7};
-        numbers[0] = 12;
-        numbers[2] = 44;
+        // int, boolean, float, double, long - примитивные типы
+        // String, Integer, Boolean, Float, Double - ссылочные типы
 
-        for (int number : numbers) {
-            System.out.println(number);
-        }
+        // <название типа данных> <название переменной> = <значение>;
+//        String string = "Hello";
+//        int number1 = 43;
+//        int number2 = 51;
+//        String str2 = "Hello";
+//        boolean b = 43 > 51;
+//        boolean b2 = false;
+//
+//        System.out.println(b);
 
-        //
+        // Целочисленный тип данных:
+//        Integer a = new Integer(34);
+//        int b = 34;
 
-        int[][] numbers2 = {{1, 2, 3},
-                        {4, 5, 6},
-                        {7, 8, 9}};
+//        Создание вещественных чисел:
+//        float num = 324.34f;
+//        double num2 = 324.34;
+//        System.out.println(num);
 
-        for (int i = 0; i < numbers2.length; i++) {
-            for (int j = 0; j < numbers2.length; j++) {
-                System.out.printf("%d ", numbers2[i][j]);
-            }
-            System.out.println();
-        }
+
+        // + - * / %
+
+
+        Scanner scanner = new Scanner(System.in);
+//        int number1 = scanner.nextInt();
+//        int number2 = scanner.nextInt();
+//
+//        System.out.println(number1 + number2);
+//        System.out.println(number1 - number2);
+//        System.out.println(number1 * number2);
+//        System.out.println(number1 / number2);
+//        System.out.println(number1 % number2);
+
+        String name = scanner.next();
+        System.out.println("Hello, " + name);
+
+
+
     }
 }
