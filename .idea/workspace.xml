@@ -7,6 +7,7 @@
     <list default="true" id="4eb8acf5-58e5-4cec-8ff3-0a89f8b67b36" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/connor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +48,10 @@
     &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/dora/Desktop/DemoProject&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;shared-indexes&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ru.connor.Main">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="ClassesAndObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.connor.ClassesAndObjects" />
       <module name="DemoProject" />
@@ -92,9 +93,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ru.connor.Main" />
         <item itemvalue="Application.ClassesAndObjects" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +123,9 @@
       <workItem from="1677062567675" duration="476000" />
       <workItem from="1677425995985" duration="4616000" />
       <workItem from="1678710350499" duration="321000" />
-      <workItem from="1679328784818" duration="363000" />
+      <workItem from="1679328784818" duration="830000" />
+      <workItem from="1679370264392" duration="11000" />
+      <workItem from="1679404890143" duration="2979000" />
     </task>
     <task id="LOCAL-00001" summary="added comment">
       <created>1674122337573</created>

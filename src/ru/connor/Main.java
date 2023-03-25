@@ -8,28 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // <тип массива>[] <название массива> = new <тип массива>[<кол-во значений>]
-        // <тип массива> <название массива>[] = new <тип массива>[<кол-во значений>]
-
-
-//        int[] numbers = new int[4];
-//        numbers[2] = 43;
-//        numbers[0] = 3;
-//        numbers[5] = 32;
-
-
-
-//        for (int number : numbers) {
-//            System.out.println(number);
-//        }
-//
-        int[] numbers = {3, 4, 1, 53, 1};
-        numbers[2] = 32;
-
-        for (int i = 0; i < numbers.length; i++) {
-            System.out.println(numbers[i]);
-        }
-        // for (<создаем переменную i>; <условие, до каких пор будет выполняться программа>; <операция>){
+        // for (<создаем переменную i>; <условие - до каких пор будет выполняться программа>; <операция>){
         //      <инструкция>
         //}
 //
