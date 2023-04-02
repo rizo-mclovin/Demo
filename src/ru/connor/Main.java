@@ -1,5 +1,4 @@
 package ru.connor;
-
 import java.util.Scanner;
 
 public class Main {
@@ -11,7 +10,7 @@ public class Main {
 //        String string = "Hello";
 //        int number1 = 43;
 //        int number2 = 51;
-//        String str2 = "Hello";
+//        String str = "Hello";
 //        boolean b = 43 > 51;
 //        boolean b2 = false;
 //
@@ -29,21 +28,40 @@ public class Main {
 
         // + - * / %
 
-
         Scanner scanner = new Scanner(System.in);
 //        int number1 = scanner.nextInt();
 //        int number2 = scanner.nextInt();
-//
 //        System.out.println(number1 + number2);
 //        System.out.println(number1 - number2);
 //        System.out.println(number1 * number2);
 //        System.out.println(number1 / number2);
 //        System.out.println(number1 % number2);
+//
+//        String name = scanner.next();
+//        System.out.println("Hello, " + name);
 
-        String name = scanner.next();
-        System.out.println("Hello, " + name);
+        /* Цикл с предусловием
+        while(<условие>){
+            <инструкция>
+        }
+         */
+        int counter = 0;
 
+        while (counter > 10){
+            counter++;
+            System.out.println(counter);
+        }
 
+        /* Цикл с постусловием
+        do{
+            <инструкция>
+        }while(<условие>);
+         */
+        System.out.println("TEST");
 
+        do {
+            counter ++;
+            System.out.println(counter);
+        }while (counter > 10);
     }
 }
