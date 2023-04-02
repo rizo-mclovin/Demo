@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eb8acf5-58e5-4cec-8ff3-0a89f8b67b36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/connor/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/connor/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/connor/ClassesAndObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/ClassesAndObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/ClassesAndObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/connor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,9 +80,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.connor.Test" />
+      <module name="DemoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.connor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ClassesAndObjects" />
       </list>
     </recent_temporary>

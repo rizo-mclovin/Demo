@@ -1,6 +1,6 @@
 package ru.connor;
 
-public class Dog extends Animals<Animals> {
+public class Dog extends Animals {
     public void bark(){
         System.out.println("I`m barking");
     }
