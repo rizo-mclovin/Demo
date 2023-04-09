@@ -1,17 +1,23 @@
 package ru.connor;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
 
 public class Main {
-    public static void main(String[] args) throws FileNotFoundException {
-        String separator = File.separator;
-        String path = separator+"Users"+separator+"dora"+separator+"Desktop"+separator+"file.txt";
-        File file = new File(path);
+    public static void main(String[] args) {
+        Country country = Country.USA;
 
-        PrintWriter pw = new PrintWriter(file);
-        pw.println("Hello");
-        pw.println("world!");
-        pw.close();
+
+        switch (country){
+            case RUSSIA:
+                System.out.println("It's Russia");
+                break;
+            case USA:
+                System.out.println("It's USA");
+                break;
+            case CHINA:
+                System.out.println("It's China");
+                break;
+            default:
+                System.out.println("It's not a biggest country");
+
+        }
     }
 }
