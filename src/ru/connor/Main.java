@@ -61,6 +61,30 @@ public class Main {
 //            System.out.println(number);
 //        }
 
+//
+//        System.out.println(1 + ", " + 2 + ", " + 3);
+//        System.out.printf("%d, %d, %d", 1, 2, 3);
+
+
+        // Задачи на массивы
+
+        int[] numbers = new int[10];
+
+        for (int i = 1, b = 0; i < 21; i++) {
+            if (i % 2 == 0){
+                numbers[b] = i;
+                System.out.println(numbers[b] + " ");
+                b++;
+            }
+
+        }
+
+        for (int number: numbers
+             ) {
+            System.out.println(number);
+        }
+
+
     }
 }
 
