@@ -1,11 +1,21 @@
 package ru.connor;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Person person = new Person();
         person.name = "Tom";
-        person.age = 29;
+        person.age = 32;
+        person.say_hello();
+        person.calculateBirthYear();
 
-        System.out.printf("Name: %s. Age: %d", person.name, person.age);
+        System.out.println();
+
+        Person person1 = new Person();
+        person1.name = "Alex";
+        person.age = 43;
+        person1.say_hello();
+        person1.calculateBirthYear();
     }
 }
