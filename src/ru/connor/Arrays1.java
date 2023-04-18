@@ -35,7 +35,7 @@ public class Arrays1 {
  */
 class Arrays2{
     public static void main(String[] args) {
-//        int[][] numbers = new int[3][4];
+//        int[][] numbers = new int[3][4];  Привет как дела.!
         int[][] numbers = {{1, 2, 3},
                             {4, 5, 6},
                             {7, 8, 9}};
@@ -45,7 +45,5 @@ class Arrays2{
             }
             System.out.println();
         }
-
-
     }
 }

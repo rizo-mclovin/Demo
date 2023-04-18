@@ -11,5 +11,6 @@ public class Test {
 
         double x = in.nextDouble();
         System.out.println(x>=3 && x<=8);
+
     }
 }
