@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eb8acf5-58e5-4cec-8ff3-0a89f8b67b36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/connor/ForTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/connor/Phone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/connor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/connor/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/ForTasks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/Person.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;shared-indexes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ForTasks">
+  <component name="RunManager" selected="Application.ru.connor.Main">
     <configuration name="ClassesAndObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.connor.ClassesAndObjects" />
       <module name="DemoProject" />
@@ -94,8 +95,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ForTasks" />
         <item itemvalue="Application.ru.connor.Main" />
+        <item itemvalue="Application.ForTasks" />
       </list>
     </recent_temporary>
   </component>
