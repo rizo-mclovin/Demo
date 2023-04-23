@@ -1,67 +1,55 @@
 package ru.connor;
-import java.util.Scanner;
+
+import java.time.Year;
 
 public class Main {
     public static void main(String[] args) {
-        // int, boolean, float, double, long - примитивные типы
-        // String, Integer, Boolean, Float, Double - ссылочные типы
+        Person person = new Person();
+        person.setName("Alex");
+        person.setAge(23);
+        System.out.println(person.personInfo(person.getName(), person.getAge()));
+        System.out.println(person.calculateBirthYear(person.getAge()));
 
-        // <название типа данных> <название переменной> = <значение>;
-//        String string = "Hello";
-//        int number1 = 43;
-//        int number2 = 51;
-//        String str = "Hello";
-//        boolean b = 43 > 51;
-//        boolean b2 = false;
-//
-//        System.out.println(b);
-
-        // Целочисленный тип данных:
-//        Integer a = new Integer(34);
-//        int b = 34;
-
-//        Создание вещественных чисел:
-//        float num = 324.34f;
-//        double num2 = 324.34;
-//        System.out.println(num);
-
-
-        // + - * / %
-
-        Scanner scanner = new Scanner(System.in);
-//        int number1 = scanner.nextInt();
-//        int number2 = scanner.nextInt();
-//        System.out.println(number1 + number2);
-//        System.out.println(number1 - number2);
-//        System.out.println(number1 * number2);
-//        System.out.println(number1 / number2);
-//        System.out.println(number1 % number2);
-//
-//        String name = scanner.next();
-//        System.out.println("Hello, " + name);
-
-        /* Цикл с предусловием
-        while(<условие>){
-            <инструкция>
-        }
-         */
-        int counter = 0;
-
-        while (counter > 10){
-            counter++;
-            System.out.println(counter);
-        }
-
-        /* Цикл с постусловием
-        do{
-            <инструкция>
-        }while(<условие>);
-         */
-        System.out.println("TEST");
-
-        do {
-            counter ++;
-            System.out.println(counter);
-        }while (counter > 10);
     }
+}
+
+class Person{
+    private String name;
+    private int age;
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public Person(){}
+
+    public String personInfo(String name, int birthYear){
+        return "My name is " + name + ". Age: " + birthYear;
+    }
+
+
+    public int calculateBirthYear(int age){
+        int currentYear = Integer.parseInt(Year.now().toString());
+
+        return currentYear - age;
+    }
+
+
 }

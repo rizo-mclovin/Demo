@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eb8acf5-58e5-4cec-8ff3-0a89f8b67b36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/connor/Arrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/Arrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/ForLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;shared-indexes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Arrays2">
+  <component name="RunManager" selected="Application.ru.connor.Main">
     <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.connor.Arrays" />
       <module name="DemoProject" />
@@ -118,10 +120,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.connor.Main" />
         <item itemvalue="Application.Arrays2" />
         <item itemvalue="Application.Arrays" />
         <item itemvalue="Application.ForLoop" />
-        <item itemvalue="Application.ru.connor.Main" />
         <item itemvalue="Application.ClassesAndObjects" />
       </list>
     </recent_temporary>
