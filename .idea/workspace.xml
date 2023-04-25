@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eb8acf5-58e5-4cec-8ff3-0a89f8b67b36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ru/connor/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/connor/Arrays1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/Arrays1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/connor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/connor/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +52,21 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ru.connor.Main">
-    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.test.Test" />
+      <module name="DemoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.connor.Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.connor.Arrays" />
       <module name="DemoProject" />
       <extension name="coverage">
@@ -66,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrays1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ru.connor.Arrays1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.connor.Arrays1" />
       <module name="DemoProject" />
       <extension name="coverage">
@@ -79,21 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrays2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ru.connor.Arrays2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.connor.Arrays2" />
-      <module name="DemoProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.connor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.connor.Test" />
       <module name="DemoProject" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ru.connor.Main" />
-        <item itemvalue="Application.Arrays2" />
-        <item itemvalue="Application.Arrays1" />
-        <item itemvalue="Application.Arrays" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ru.connor.Main" />
+        <item itemvalue="Application.ru.connor.Arrays2" />
+        <item itemvalue="Application.ru.connor.Arrays1" />
+        <item itemvalue="Application.ru.connor.Arrays" />
       </list>
     </recent_temporary>
   </component>

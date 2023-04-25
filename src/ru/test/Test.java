@@ -1,18 +1,13 @@
-package ru.connor;
-import java.time.Year;
-import java.util.Scanner;
+package ru.test;
 
-public class Main {
+import ru.connor.Person;
+
+public class Test {
     public static void main(String[] args) {
         Person person = new Person();
-        person.name = "Alex";
-        person.age = 23;
-
+        person.name = "Tom";
+        person.age = 34;
         person.personInfo();
         person.calculateBirthYear();
-
-
     }
 }
-
-
