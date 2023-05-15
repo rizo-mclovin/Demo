@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eb8acf5-58e5-4cec-8ff3-0a89f8b67b36" name="Changes" comment="added comment">
-      <change afterPath="$PROJECT_DIR$/src/ru/connor/alexandr/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/connor/group/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/connor/group/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/connor/group/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/connor/firdavs/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/firdavs/Animals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/connor/firdavs/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/connor/firdavs/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/firdavs/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/firdavs/Animals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/firdavs/Dog.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/connor/firdavs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/firdavs/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/group/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/group/Info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/group/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/group/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/group/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/sergey/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/sergey/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/sergey/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/sergey/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/sergey/Quadratic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/sergey/Quadratic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +72,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ru.connor.firdavs.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.connor.sergey.Main" />
       <module name="DemoProject" />
@@ -131,9 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Quadratic" />
         <item itemvalue="Application.ru.connor.firdavs.Main" />
-        <item itemvalue="Application.ru.connor.alexandr.Main" />
         <item itemvalue="Application.ru.connor.group.Main" />
+        <item itemvalue="Application.ru.connor.alexandr.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +180,9 @@
       <workItem from="1683034145875" duration="549000" />
       <workItem from="1683041390473" duration="11708000" />
       <workItem from="1683630545649" duration="3845000" />
-      <workItem from="1683898684638" duration="4195000" />
+      <workItem from="1683898684638" duration="4278000" />
+      <workItem from="1683981494677" duration="6106000" />
+      <workItem from="1684077929350" duration="2826000" />
     </task>
     <task id="LOCAL-00001" summary="added comment">
       <created>1674122337573</created>

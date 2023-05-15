@@ -1,13 +1,18 @@
 package ru.connor.sergey;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Person person = new Person();
-        person.name = "Alex";
-        person.birthYear = 2000;
-        person.calculateAgeYear();
-        System.out.println(person.calculateAgeYear());
+        Person person = new Person("Alex", 2020);
+        person.personInfo();
 
-        System.out.println(person.calculateAgeYear() + 7);
+//        person.setName("Alex");
+////        person.birthYear = 2020;
+//        person.setBirthYear(2020);
+//        person.sayHello("John");
+        System.out.println(person.calculateAgeYear(person.getBirthYear()));
+        System.out.println(person.getName());
+        System.out.println(person.getBirthYear());
     }
 }
