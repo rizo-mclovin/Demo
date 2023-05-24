@@ -10,7 +10,7 @@ public class Quadratic {
         findX.test();
     }
 }
-
+ 
 
 class FindX{
     int a, b, c;

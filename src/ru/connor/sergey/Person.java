@@ -10,16 +10,11 @@ public class Person {
         this.name = name;
         this.birthYear = birthYear;
     }
-
-
-
     public Person(){}
 
     public String getName() {
         return name;
     }
-
-
 
     public void setName(String name) {
         this.name = name;

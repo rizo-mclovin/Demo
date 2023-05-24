@@ -4,12 +4,13 @@ package ru.connor.group;
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("all")
 public class Main {
     public static void main(String[] args) {
 //        Animals animals = new Animals();
 //        Animals dog = new Dog();
 //        Animals cat = new Cat();
-//
+
 //        test(animals);
 //        test(dog);
 //        test(cat);
