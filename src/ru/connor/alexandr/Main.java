@@ -4,48 +4,13 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        List<Person> peopleList = new ArrayList<>();
-        Set<Person> peopleSet = new TreeSet<>();
+        Queue<String> queue = new LinkedList<>();
 
-        addElements(peopleList);
-        addElements(peopleSet);
-
-        Collections.sort(peopleList);
-
-
-        System.out.println(peopleList);
-        System.out.println(peopleSet);
+        System.out.println(queue.add(""));
+        System.out.println(queue.add(""));
 
     }
 
-    public static void addElements(Collection collection){
-        collection.add(new Person(1, "Katy"));
-        collection.add(new Person(3, "George"));
-        collection.add(new Person(4, "To"));
-        collection.add(new Person(2, "Bob"));
-    }
-
-}
-//
-//class MyMethodToSortList implements Comparator<String>{
-//
-//
-//    /*
-//       o1 < 02 -> 1
-//       o1 > 02 -> -1
-//       o1 == o2 -> 0
-//     */
-//    @Override
-//    public int compare(String o1, String o2) {
-//        if (o1.length() > o2.length()){
-//            return 1;
-//        } else if (o1.length() < o2.length()) {
-//            return -1;
-//        }else return 0;
-//    }
-//}
-//
-//
 
 class Person implements Comparable<Person>{
     private int id;
@@ -96,4 +61,5 @@ class Person implements Comparable<Person>{
         вызываем метод equals() -> выдает точный ответ
      */
 
+}
 }
