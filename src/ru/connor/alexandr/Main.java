@@ -1,16 +1,34 @@
 package ru.connor.alexandr;
 
 import java.util.*;
+import java.util.concurrent.ArrayBlockingQueue;
 
 public class Main {
     public static void main(String[] args) {
-        Queue<String> queue = new LinkedList<>();
+        Queue<Integer> queue = new ArrayBlockingQueue<>(5); // first in - first out
+        queue.add(1);
+        queue.add(2);
+        queue.add(3);
+        queue.add(5);
 
-        System.out.println(queue.add(""));
-        System.out.println(queue.add(""));
+//        System.out.println(queue.element());
+
+        Stack<Integer> stack = new Stack<>(); // first in - last out
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(5);
+
+
+        stack.pop();
+
+        while (!stack.empty()){
+            System.out.println(stack.pop());
+        }
 
     }
 
+    // backend - frontend
 
 class Person implements Comparable<Person>{
     private int id;
