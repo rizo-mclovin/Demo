@@ -1,31 +1,38 @@
 package ru.connor.firdavs;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 
 class Main{
     public static void main(String[] args) {
-        List<Integer> arrayList = new ArrayList<>(); // Динамический массив
-        List<Integer> linkedList = new LinkedList<>(); // Связанный список
+        Map<Integer, String> hashMap = new HashMap<>(); // никакого порядка
+        Map<Integer, String> linkedHashMap = new LinkedHashMap<>(); // в каком порядке пары(ключ, значения) были добавлены
+        Map<Integer, String> treeMap = new TreeMap<>(); // пары сортируются по ключу (естественный порядок)
 
-        measureTime(arrayList);
-        measureTime(linkedList);
+        test(hashMap);
+
+        System.out.println();
+        System.out.println();
+        System.out.println();
+
+        test(linkedHashMap);
+
+        System.out.println();
+        System.out.println();
+        System.out.println();
+
+        test(treeMap);
     }
 
-    private static void measureTime(List<Integer> list){
-        long start = System.currentTimeMillis();
+    public static void test(Map<Integer, String> elements){
+        elements.put(56, "One");
+        elements.put(0, "Two");
+        elements.put(32, "kjwer");
+        elements.put(-21, "ffasf");
+        elements.put(4, "kljadsf");
 
-        for (int i = 0; i < 100000; i++) {
-            list.add(0, i);
+        for (Map.Entry<Integer, String> map : elements.entrySet()) {
+            System.out.println(map.getKey() + " : " + map.getValue());
         }
-        // 0 1 2 3 4 5 - indexes
-        // 8 7 6 5 4 3
-
-        // linkedlist - head -> [5]-> [1]-> [2]->[3]->[4]
-
-        long end = System.currentTimeMillis();
-        System.out.println(end - start);
     }
 }
 
