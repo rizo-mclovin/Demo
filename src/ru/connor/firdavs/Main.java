@@ -1,47 +1,31 @@
 package ru.connor.firdavs;
-
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+
 
 class Main{
     public static void main(String[] args) {
-        List<Integer> numbers = new ArrayList<>(2);
-        numbers.add(1);
-        numbers.add(0, 5);
-        numbers.add(1);
-        numbers.add(1);
-        System.out.println(numbers);
+        List<Integer> arrayList = new ArrayList<>(); // Динамический массив
+        List<Integer> linkedList = new LinkedList<>(); // Связанный список
 
+        measureTime(arrayList);
+        measureTime(linkedList);
+    }
+
+    private static void measureTime(List<Integer> list){
+        long start = System.currentTimeMillis();
+
+        for (int i = 0; i < 100000; i++) {
+            list.add(0, i);
+        }
+        // 0 1 2 3 4 5 - indexes
+        // 8 7 6 5 4 3
+
+        // linkedlist - head -> [5]-> [1]-> [2]->[3]->[4]
+
+        long end = System.currentTimeMillis();
+        System.out.println(end - start);
     }
 }
 
-
-//@SuppressWarnings("all")
-//public class Main {
-//    public static void main(String[] args) {
-////        Dog dog = new Dog(1);
-//
-//        List<Animals> animals = new ArrayList<>();
-//        animals.add(new Animals(1));
-//        animals.add(new Animals(2));
-//
-//       List<Dog> dogList = new ArrayList<>();
-//       dogList.add(new Dog(1));
-//       dogList.add(new Dog(2));
-//
-//       List<String> str = new ArrayList<>();
-//
-//       test(animals);
-//       test(dogList);
-//
-//    }
-//
-//    public static void test(List<? extends Animals> list){
-//        for (Animals animals : list) {
-//            System.out.println(animals);
-//        }
-//    }
-//}
-////  list1 - 1, 2, 3, 4, 5
-//// list2 - 3, 4, 5, 6, 7, 8
-////  list1.removeAll(list2) -> 1, 2

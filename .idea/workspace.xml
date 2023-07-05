@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eb8acf5-58e5-4cec-8ff3-0a89f8b67b36" name="Changes" comment="added comment">
-      <change afterPath="$PROJECT_DIR$/src/ru/connor/firdavs/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/connor/firdavs/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/connor/firdavs/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/people.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/connor/alexandr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/alexandr/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/connor/firdavs/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/connor/firdavs/ReadObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/connor/firdavs/WriteObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/firdavs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/firdavs/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,6 +199,8 @@
       <workItem from="1687020568037" duration="83000" />
       <workItem from="1687020678869" duration="1835000" />
       <workItem from="1687692568705" duration="2784000" />
+      <workItem from="1688008824695" duration="1996000" />
+      <workItem from="1688023283701" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="added comment">
       <created>1674122337573</created>
