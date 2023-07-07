@@ -2,37 +2,61 @@ package ru.connor.firdavs;
 import java.util.*;
 
 
-class Main{
+class Main {
     public static void main(String[] args) {
-        Map<Integer, String> hashMap = new HashMap<>(); // никакого порядка
-        Map<Integer, String> linkedHashMap = new LinkedHashMap<>(); // в каком порядке пары(ключ, значения) были добавлены
-        Map<Integer, String> treeMap = new TreeMap<>(); // пары сортируются по ключу (естественный порядок)
 
-        test(hashMap);
+        Person person1 = new Person(1, "Alex");
+        Person person2 = new Person(1, "Alex");
+        Person emptyPerson = new Person();
 
-        System.out.println();
-        System.out.println();
-        System.out.println();
+        person1.equals(emptyPerson);
+        Map<Person, String> map = new HashMap<>();
+        map.put(person1, "Alex");
+        map.put(person2, "Bob");
 
-        test(linkedHashMap);
+        Set<Person> set = new HashSet<>();
+        set.add(person1);
+        set.add(person2);
 
-        System.out.println();
-        System.out.println();
-        System.out.println();
+        System.out.println(map);
+        System.out.println(set);
 
-        test(treeMap);
-    }
 
-    public static void test(Map<Integer, String> elements){
-        elements.put(56, "One");
-        elements.put(0, "Two");
-        elements.put(32, "kjwer");
-        elements.put(-21, "ffasf");
-        elements.put(4, "kljadsf");
-
-        for (Map.Entry<Integer, String> map : elements.entrySet()) {
-            System.out.println(map.getKey() + " : " + map.getValue());
-        }
     }
 }
 
+
+
+class Person extends Object{
+    int id;
+    String name;
+
+    public Person(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public Person(){}
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return id == person.id && Objects.equals(name, person.name);
+    }
+
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name);
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
+}
