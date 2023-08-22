@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eb8acf5-58e5-4cec-8ff3-0a89f8b67b36" name="Changes" comment="added comment">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/connor/Contract.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/connor/ListsLesson.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/connor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/connor/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/connor/ReadObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/connor/WriteObject.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +77,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.ru.connor.Main">
     <configuration name="ListsLesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.connor.ListsLesson" />
       <module name="DemoProject" />
@@ -151,8 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ru.connor.Main" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.WriteObject" />
         <item itemvalue="Application.ReadObject" />
         <item itemvalue="Application.ListsLesson" />
@@ -214,6 +208,7 @@
       <workItem from="1688739331030" duration="4312000" />
       <workItem from="1692456867952" duration="5128000" />
       <workItem from="1692541697662" duration="3390000" />
+      <workItem from="1692715371724" duration="621000" />
     </task>
     <task id="LOCAL-00001" summary="added comment">
       <created>1674122337573</created>
