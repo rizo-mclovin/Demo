@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eb8acf5-58e5-4cec-8ff3-0a89f8b67b36" name="Changes" comment="added comment">
-      <change afterPath="$PROJECT_DIR$/people.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/connor/Contract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/connor/ListsLesson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/connor/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/connor/ReadObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/connor/WriteObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/Contract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/ListsLesson.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/connor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/connor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/ReadObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/connor/WriteObject.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="ListsLesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.connor.ListsLesson" />
       <module name="DemoProject" />
@@ -100,6 +99,19 @@
     </configuration>
     <configuration name="ReadObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.connor.ReadObject" />
+      <module name="DemoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.connor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.connor.Test" />
       <module name="DemoProject" />
       <extension name="coverage">
         <pattern>
@@ -137,28 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DemoProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.connor.firdavs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.connor.firdavs" />
-      <option name="MAIN_CLASS_NAME" value="ru.connor.firdavs.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ru.connor.Main" />
         <item itemvalue="Application.WriteObject" />
         <item itemvalue="Application.ReadObject" />
         <item itemvalue="Application.ListsLesson" />
-        <item itemvalue="Application.ru.connor.Main" />
-        <item itemvalue="JUnit.SolutionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +213,7 @@
       <workItem from="1688565768121" duration="1528000" />
       <workItem from="1688739331030" duration="4312000" />
       <workItem from="1692456867952" duration="5128000" />
-      <workItem from="1692541697662" duration="494000" />
+      <workItem from="1692541697662" duration="3390000" />
     </task>
     <task id="LOCAL-00001" summary="added comment">
       <created>1674122337573</created>
