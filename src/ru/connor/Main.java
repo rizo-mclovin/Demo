@@ -8,36 +8,34 @@ import java.util.*;
  */
 public class Main {
     public static void main(String[] args) {
-        Set<String> hashSet = new HashSet<>();
-        Set<String> linkedHashSet = new LinkedHashSet<>();
-        Set<String> treeSet = new TreeSet<>();
+        Queue<Person> queue = new LinkedList<>();
 
+//        queue.add(new Person(4));
+//        queue.add(new Person(3));
+//        queue.add(new Person(1));
+//        queue.add(new Person(2));
 
-        treeSet.add("Tom");
-        treeSet.add("Alex");
-        treeSet.add("John");
-        treeSet.add("Bob");
-        treeSet.add("Tim");
-
-        for(String name : treeSet){
-            System.out.println(name);
+        System.out.println(queue.element());
+        for (Person person: queue
+             ) {
+            System.out.println(person);
         }
-        System.out.println(treeSet.contains("Tim"));
-
-
-
-
 
     }
 
 }
 
-
 class Person{
-    private int age;
+    private int id;
 
+    public Person(int id) {
+        this.id = id;
+    }
 
-    public Person(int age) {
-        this.age = age;
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                '}';
     }
 }
