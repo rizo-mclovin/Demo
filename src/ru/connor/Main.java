@@ -8,28 +8,32 @@ import java.util.*;
  */
 public class Main {
     public static void main(String[] args){
-        Map<Person, String> map = new HashMap<>();
-        Set<Person> set = new HashSet<>();
+        List<Person> people = new ArrayList<>();
+        Set<Person> personSet = new HashSet<>();
 
-        Person person = new Person(1, "Tom");
-        Person person2 = new Person(1, "Tom");
+        addElement(people);
+        addElement(personSet);
 
-        map.put(person, "one");
-        map.put(person2, "two");
+        Collections.sort(people);
+//        Collections.sort(personSet);
 
-        set.add(person);
-        set.add(person2);
-        System.out.println(map);
-        System.out.println(set);
 
-        person.equals(person2);
-        System.out.println(Integer.MAX_VALUE);
+        System.out.println(people);
+        System.out.println(personSet);
+
+
+    }
+
+    public static void addElement(Collection collection){
+        collection.add(new Person(2, "Alex"));
+        collection.add(new Person(1, "JoTomasdfahn"));
+        collection.add(new Person(4, "Katy"));
+        collection.add(new Person(3, ""));
 
     }
 }
 
-
-class Person{
+class Person implements Comparable<Person>{
     private int id;
     private String name;
 
@@ -42,6 +46,21 @@ class Person{
     public Person() {}
 
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     @Override
     public String toString() {
@@ -67,6 +86,15 @@ class Person{
         int result = id;
         result = 31 * result + name.hashCode();
         return result;
+    }
+
+    @Override
+    public int compareTo(Person o) {
+        if (this.name.length() > o.getName().length()){
+            return 1;
+        }else if (this.name.length() < o.getName().length()){
+            return -1;
+        }else return 0;
     }
 
     /* Контракт hashcode() equals():
